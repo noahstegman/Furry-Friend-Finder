@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Simpleton's Disney Guide</title>
+        <link href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}">
+        {% block head %}{% endblock %}
+    </head>
+    <body>
+        <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js"></script>
+        <div class="nav">
+            <div>Furry Friend Finder</div>
+        </div>
+        {% block body %}{% endblock %}
+        <div class="footer">
+            <div>project by <a href="https://github.com/noahstegman/">noah</a></div>
+        </div>
+    </body>
+    
+</html>

@@ -1,0 +1,23 @@
+{% extends 'wrapper.html' %}
+
+{% block head %}
+
+{% endblock %}
+
+{% block body %}
+<section class="splide" aria-label="Splide Basic HTML Example">
+    <div class="splide__track">
+          <ul class="splide__list">
+            {% for result in results %}
+                <li class="splide__slide">
+                    <div><a href="{{ result['url'] }}" target="_blank">{{ result['name'] }}</a></div>
+                    <div><img src="{{ result['photo'] }}"/></div>
+                </li>
+            {% endfor %}
+          </ul>
+    </div>
+</section>
+<script>
+    new Splide( '.splide' ).mount();
+</script>
+{% endblock %}
