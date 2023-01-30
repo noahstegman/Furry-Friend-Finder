@@ -9,3 +9,6 @@ The webiste will display a slideshow with each slide being a:
 2) Name and link to the petfinder site that allows you to look into said dog more!
 
 requirements.txt included. using Flask, requests, and requests cache
+
+
+![alt text](http://url/to/img.png)
