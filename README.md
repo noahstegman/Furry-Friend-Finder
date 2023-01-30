@@ -11,5 +11,5 @@ The webiste will display a slideshow with each slide being a:
 requirements.txt included. using Flask, requests, and requests cache
 
 <p align="center">
-![Furry Friend Finder](https://raw.githubusercontent.com/noahstegman/Furry-Friend-Finder/master/image.png)
+[Furry Friend Finder](https://raw.githubusercontent.com/noahstegman/Furry-Friend-Finder/master/image.png)
 </p>
